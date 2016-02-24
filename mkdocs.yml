@@ -15,8 +15,15 @@ pages:
   - Views: developers/views.md
   - Registry: developers/registry.md
 - Contributors:
-  - Introduction: contributors/index.md
+  - 'Getting started': contributors/index.md
+  - Prepare: contributors/prepare.md
+  - Package: contributors/package.md
+  - Load: contributors/load.md
+  - Interact: contributors/interact.md
 - Users:
-  - Introduction: users/index.md
+  - 'Getting started': users/index.md
+  - Explore: users/explore.md
+  - Interact: users/interact.md
+  - Export: users/export.md
 theme: readthedocs
 
