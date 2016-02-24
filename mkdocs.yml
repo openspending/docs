@@ -1,0 +1,7 @@
+site_name: OpenSpending
+pages:
+- Home: index.md
+- Developers: developers.md
+- Data Contributors: contributors.md
+- End Users: users.md
+theme: readthedocs
