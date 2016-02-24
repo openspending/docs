@@ -1,7 +1,22 @@
 site_name: OpenSpending
+site_description: OpenSpending is a database for fiscal data.
+site_url: http://docs.openspending.org
+repo_url: https://github.com/openspending/openspending
 pages:
-- Home: index.md
-- Developers: developers.md
-- Data Contributors: contributors.md
-- End Users: users.md
+- Home:
+  - Start: index.md
+- Developers:
+  - 'Getting started': developers/index.md
+  - Compose: developers/compose.md
+  - API: developers/api.md
+  - Datastore: developers/datastore.md
+  - Packager: developers/packager.md
+  - Viewer: developers/viewer.md
+  - Views: developers/views.md
+  - Registry: developers/registry.md
+- Contributors:
+  - Introduction: contributors/index.md
+- Users:
+  - Introduction: users/index.md
 theme: readthedocs
+
