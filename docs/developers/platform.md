@@ -8,7 +8,7 @@ Local installation and remote deployment of OpenSpending is orchestrated with Do
 
 As well as the main code repository for the [OpenSpending platform](https://github.com/openspending/openspending), all the components are pre-built on Docker hub. See the [OpenSpending organization on Docker Hub](https://hub.docker.com/u/openspending/) for all available images.
 
-## Getting started
+## Installation
 
 ### Docker
 
