@@ -8,8 +8,8 @@ pages:
 - Developers:
   - 'Getting started': developers/index.md
   - Platform: developers/platform.md
-  - API: developers/api.md
   - Datastore: developers/datastore.md
+  - API: developers/api.md
   - Packager: developers/packager.md
   - Viewer: developers/viewer.md
   - Explorer: developers/explorer.md
