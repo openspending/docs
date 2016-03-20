@@ -22,7 +22,7 @@ pages:
   - Prepare: contributors/prepare.md
   - Package: contributors/package.md
   - Load: contributors/load.md
-  - Interact: contributors/interact.md
+  - Use: contributors/use.md
 - Users:
   - 'Getting started': users/index.md
   - Explore: users/explore.md

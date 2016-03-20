@@ -2,11 +2,11 @@
 
 This section of the OpenSpending documentation is for data contributors. Here you can learn about getting your data ready for loading into OpenSpending, and how you can interact with your data once it is loaded.
 
-* [Getting started](#getting-started)
-* [Prepare](prepare/)
-* [Package](package/)
-* [Load](load/)
-* [Interact](interact/)
+- [Getting started](#getting-started)
+- [Prepare](prepare/)
+- [Package](package/)
+- [Load](load/)
+- [Use](use/)
 
 # Getting started
 
@@ -16,29 +16,26 @@ Let's get started then!
 
 ### Prepare
 
-OpenSpending loads and stores data in common tabular data formats such as CSV and Excel.
+OpenSpending loads and stores data in common tabular data formats such as CSV and Excel. Read this section of the documentation to learn how to ensure your data is ready to add to OpenSpending.
 
-* [Prepare documentation](prepare/)
+- [Prepare docs](prepare/)
 
 ### Package
 
-OpenSpending "understands" the contents of a source data file via another "descriptor" called a [Fiscal Data Package](http://fiscal.dataprotocols.org/spec/).
+OpenSpending "understands" the contents of a source data file via another "descriptor" called a [Fiscal Data Package](http://fiscal.dataprotocols.org/spec/). Learn about packaging your data as a Fiscal Data Package.
 
-* [Package documentation](load/)
-* [Package URL](https://openspending.org/packager)
+* [Package docs](package/)
 
 ### Load
 
-It is possible to load Fiscal Data Packages into OpenSpending via a web app (the Packager) and via API.
+It is possible to load Fiscal Data Packages into OpenSpending via a web app (the Packager) and CLI.
 
-* [Load documentation](load/)
-* [Load URL](https://openspending.org/packager)
+* [Load docs](load/)
 
 ## Using the loaded data
 
-### Interact
+### Use
 
 Once your data is loaded into OpenSpending, you can interact with the data in a number of ways, including via API, raw files from the Datastore, and various views on the data.
 
-* [Interact documentation](interact/)
-* [Interact URL](https://openspending.org/packager)
+* [Usage docs](use/)
