@@ -10,6 +10,7 @@ pages:
   - Platform: developers/platform.md
   - Datastore: developers/datastore.md
   - API: developers/api.md
+  - Conductor: developers/conductor.md
   - Packager: developers/packager.md
   - Viewer: developers/viewer.md
   - Explorer: developers/explorer.md
