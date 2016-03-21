@@ -106,9 +106,14 @@ The following environment variables need to be defined *locally* before proceedi
 - `OS_DB_PWD`: the OpenSpending DB connection password
 - `OS_API_ENGINE`: the OpenSpending DB connection string
 - `OS_CONDUCTOR_ENGINE`: the OpenSpending DB connection string
-- `OPENSPENDING_ACCESS_KEY_ID`: the access key for S3
-- `OPENSPENDING_SECRET_ACCESS_KEY`: the access secret key for S3
-- `OPENSPENDING_STORAGE_BUCKET_NAME`: the bucket name on S3
+- `OS_ACCESS_KEY_ID`: the access key for S3
+- `OS_SECRET_ACCESS_KEY`: the access secret key for S3
+- `OS_STORAGE_BUCKET_NAME`: the bucket name on S3
+- `OS_PACKAGER_CONDUCTOR_HOST`: the domain for the conductor instance to use in the Packager
+- `OS_PACKAGER_BASE_PATH`: the base path for the Packager app to serve from
+- `OS_VIEWER_API_HOST`: the domain of the API instance to use in the Viewer
+- `OS_VIEWER_AUTH_HOST`: the domain of the Auth server instance to use in the Viewer
+- `OS_VIEWER_BASE_PATH`: the base path for the Viewer app to serve from
 
 ##### Bootstrapping
 
