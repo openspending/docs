@@ -66,7 +66,8 @@ Based on the default configuration of the Packager, you can now work with the en
 
 OpenSpending Packager is configured using environment variables. The following variables are available:
 
-- TBD
+- `OS_PACKAGER_CONDUCTOR_HOST`: the URL of the domain that the conductor app is served from.
+- `OS_PACKAGER_BASE_PATH`: The base path for the app, needed to serve Packager from a subdirectory instead of a subdomain.
 
 ### Contributing code
 
@@ -78,58 +79,3 @@ We *can't wait* to see your contributions. Here are a few things that will help:
 - We follow a set of [coding standards](https://github.com/okfn/coding-standards), and we have simple examples of those coding standards implemented for [Python](https://github.com/okfn/oki-py) and [Javascript](https://github.com/okfn/oki-js). Please do read before starting.
 
 If anything is unclear, or you just want to talk with other people working on OpenSpending, then catch us on [Gitter.im](http://gitter.im/openspending/chat).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The OpenSpending Packager is a Javascript application to validate source data, model it into a Fiscal Data Package, and publish data to the OpenSpending Datastore.
-
-
-## Getting started
-
-Fiscal Data Packager is a Node.js app, based on Express v4 framework.
-
-Get a local server setup with the following steps:
-
-1. Ensure you are running the supported version of Node.js, which is declared in the `package.json`.
-2. Create a local directory called `os-packager` and move into it with `cd os-packager`.
-3. Clone the code with `git clone https://github.com/openspending/os-packager.git .`.
-4. Install the dependencies with `npm install`.
-5. Create a `settings.json` file with these contents, changing any values as required:
-   
-      ```
-        {
-            "app": {
-                  "port": 5000
-                      }
-                        }
-                           ```
-                           6. Run `gulp` to build the frontend app
-                           
-                           Now we should be ready to run the server:
-                           
-                           1. Run the app with `npm start`
-                           2. Visit the site: `http://localhost:5000/`
-                           
-                           ## Other useful commands:
-                           
-                           1. `npm test` - run tests.
-                           2. `npm run review` - run jscs over the code.
-                           2. `npm run develop` - build sources and then start server.
-                           
-                           
