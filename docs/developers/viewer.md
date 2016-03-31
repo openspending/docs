@@ -68,7 +68,9 @@ Based on the default configuration of the Viewer, you can now work with the enti
 
 OpenSpending Viewer is configured using environment variables. The following variables are available:
 
-- TBD
+- `OS_VIEWER_API_HOST`: The URL of the domain that the API app is served from.
+- `OS_VIEWER_AUTH_HOST`: The URL of the domain that the auth app is served from.
+- `OS_VIEWER_BASE_PATH`: The base path for the app, needed to serve Viewer from a subdirectory instead of a subdomain.
 
 ### Contributing code
 
