@@ -4,7 +4,7 @@ The OpenSpending Auth Client is a Javascript library for working with the OpenSp
 
 ### Contributing code
 
-Found a bug? Got neat way to refactor an existing code path? Bursting with ideas to make the Packager more awesome?
+Found a bug? Got neat way to refactor an existing code path? Bursting with ideas to make OpenSpending more awesome?
 
 We *can't wait* to see your contributions. Here are a few things that will help:
 

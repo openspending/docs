@@ -59,7 +59,7 @@ You need a user that has permissions to read and write to the bucket. It is best
 
 ### Contributing code
 
-Found a bug? Got neat way to refactor an existing code path? Bursting with ideas to make the Packager more awesome?
+Found a bug? Got neat way to refactor an existing code path? Bursting with ideas to make OpenSpending more awesome?
 
 We *can't wait* to see your contributions. Here are a few things that will help:
 

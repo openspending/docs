@@ -1,12 +1,12 @@
 # Where Does My Money Go?
 
-Where Does My Money Go? is a satellite app running off the OpenSpending API. We are working on a 2016 rethink / refactor of Where Does My Money Go?. 
+Where Does My Money Go? is a satellite app running off the OpenSpending API. We are working on a 2016 rethink / refactor of Where Does My Money Go?.
 
 Stay tuned.
 
 ### Contributing code
 
-Found a bug? Got neat way to refactor an existing code path? Bursting with ideas to make the Packager more awesome?
+Found a bug? Got neat way to refactor an existing code path? Bursting with ideas to make OpenSpending more awesome?
 
 We *can't wait* to see your contributions. Here are a few things that will help:
 

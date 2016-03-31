@@ -134,4 +134,15 @@ The current flow works for the Open Knowledge International OpenSpending instanc
 - In some cases, the local virtual machine may have DNS configuration issues, in which case, add `nameserver 8.8.8.8` tp the guest `/etc/hosts`
 - If you are having problems with the setup not working due to download errors, certificate errors, or other inexplicable errors, try running `docker-machine upgrade && docker-machine regenerate-certs` and try again.
 
+### Contributing code
+
+Found a bug? Got neat way to refactor an existing code path? Bursting with ideas to make OpenSpending more awesome?
+
+We *can't wait* to see your contributions. Here are a few things that will help:
+
+- All open issues for the Viewer [can be found here](http://github.com/openspending/openspending/issues), labeled "Viewer". If you are working on an existing issue, please let us know by commenting on an issue. Likewise, if you are working on something new, open an issue to let us know.
+- We follow a set of [coding standards](https://github.com/okfn/coding-standards), and we have simple examples of those coding standards implemented for [Python](https://github.com/okfn/oki-py) and [Javascript](https://github.com/okfn/oki-js). Please do read before starting.
+
+If anything is unclear, or you just want to talk with other people working on OpenSpending, then catch us on [Gitter.im](http://gitter.im/openspending/chat).
+
 
