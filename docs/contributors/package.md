@@ -33,7 +33,7 @@ Fiscal Data Packages can be validated using the following tools:
 ***Classifications***
 
 **Administrative classification** - the entity responsible for managing the public funds, such as the Ministry of Health, Education, Social Protection (or at a lower level, schools and hospitals).
-*Examples:* 
+*Examples:*
 * *National Social Insurance Company*
 * *Agency for Payments and Intervention in Agriculture*
 * *State Tax Inspectorate*

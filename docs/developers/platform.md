@@ -114,6 +114,7 @@ The following environment variables need to be defined *locally* before proceedi
 - `OS_VIEWER_API_HOST`: the domain of the API instance to use in the Viewer
 - `OS_VIEWER_AUTH_HOST`: the domain of the Auth server instance to use in the Viewer
 - `OS_VIEWER_BASE_PATH`: the base path for the Viewer app to serve from
+- `OS_VIEWER_SEARCH_HOST`: the domain of the Search API instance to use in the Viewer
 
 ##### Bootstrapping
 
@@ -144,5 +145,3 @@ We *can't wait* to see your contributions. Here are a few things that will help:
 - We follow a set of [coding standards](https://github.com/okfn/coding-standards), and we have simple examples of those coding standards implemented for [Python](https://github.com/okfn/oki-py) and [Javascript](https://github.com/okfn/oki-js). Please do read before starting.
 
 If anything is unclear, or you just want to talk with other people working on OpenSpending, then catch us on [Gitter.im](http://gitter.im/openspending/chat).
-
-

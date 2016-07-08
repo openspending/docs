@@ -9,7 +9,7 @@ Essentially, the minimum quality requirements are as follows:
 - The file must have headers on the first row.
 - There must not be any blank rows.
 - There must not be any mismatch between the length of a row, and the length of the headers.
-- Each column must have a consistent "data type" (date columns should contain dates, amount columns should contain numbers).
+- Each column must have a consistent "data type" (date columns should contain dates, amount columns should contain numbers without currency signs or names).
 
 ## Ensuring quality
 

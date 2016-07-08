@@ -15,16 +15,16 @@ You need to have a recent version of Node.js (v5 and above) to work with the Vie
 
 ## Installation
 
-The Views are install as part of the OpenSpending Platform inside the [Viewer](./viewer/). If you want to work with the views directly, clone the repo and run WebPack.
+The Views are installed as part of the OpenSpending Platform inside the [Viewer](./viewer/). If you want to work with the views directly, clone the repo and run WebPack.
 
 ## Components
 
 The library currently ships with the following components.
 
 - API: A client for a Babbage API server
-- Drilldown: Treemap, Pie Chart, Bubble Tree, GoewView
+- Drilldown: Treemap, Pie Chart, Bubble Tree, GeoView, Sankey
 - Sortable-Series: Bar Chart, Table
-- Time-Series: Line/Area Chart
+- Time-Series: Line/Area Chart with series support
 - 2D-Table: Pivot Table
 
 We would be *delighted* to accept Pull Requests that add new views, or add new bindings for other Javascript frameworks.
@@ -35,7 +35,7 @@ Found a bug? Got neat way to refactor an existing code path? Bursting with ideas
 
 We *can't wait* to see your contributions. Here are a few things that will help:
 
-- All open issues for the Viewer [can be found here](http://github.com/openspending/openspending/issues), labeled "Viewer". If you are working on an existing issue, please let us know by commenting on an issue. Likewise, if you are working on something new, open an issue to let us know.
+- All open issues for the Views Library [can be found here](http://github.com/openspending/openspending/issues), labeled "Viewer". If you are working on an existing issue, please let us know by commenting on an issue. Likewise, if you are working on something new, open an issue to let us know.
 - We follow a set of [coding standards](https://github.com/okfn/coding-standards), and we have simple examples of those coding standards implemented for [Python](https://github.com/okfn/oki-py) and [Javascript](https://github.com/okfn/oki-js). Please do read before starting.
 
 If anything is unclear, or you just want to talk with other people working on OpenSpending, then catch us on [Gitter.im](http://gitter.im/openspending/chat).

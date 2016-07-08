@@ -21,9 +21,9 @@ Setup an AWS account.
 You need a user that has permissions to read and write to the bucket. It is best practice to not employ an actual user account for this task, but, rather, set up some user that you use for deployed services, who has only the actual access levels required to perform the needed actions. An example setup is:
 
 - Go to security credentials in AWS and create a new user with a name that helps you remember it is a deployment user. Example: `openspending-robot`
-- Get this user's access key, secret key. The access key and secret key are used in the `OPENSPENDING_ACCESS_KEY_ID` and `OPENSPENDING_SECRET_ACCESS_KEY` environment variables respectively.
+- Get this user's access key, secret key. The access key and secret key are used in the `OS_ACCESS_KEY_ID` and `OS_SECRET_ACCESS_KEY` environment variables respectively.
 - Go to that user's permissions and attach an `AmazonS3FullAccess` policy (great place for fine-tuning if you are familiar with AWS)
-- Go to S3 and create a bucket that you will use as the OpenSpending Datastore. The name of the bucket is used in the `OPENSPENDING_STORAGE_BUCKET_NAME` environment variable.
+- Go to S3 and create a bucket that you will use as the OpenSpending Datastore. The name of the bucket is used in the `OS_STORAGE_BUCKET_NAME` environment variable.
 - With the S3 bucket created, go to its 'Properties', then 'Permissions', then 'Edit Bucket Policy'. The policy should allow GET access to anyone, like:
 
 ```
