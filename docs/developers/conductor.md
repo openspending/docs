@@ -140,6 +140,8 @@ JSON content with the following structure:
  - `package.packageCode` - filter by package region code
  - `size` - number of results to return
 
+All values for all parameters (except `jwt`) should be passed as JSON values.
+
 **Returns:**
 
 All packages that match the filter.

@@ -42,7 +42,7 @@ Follow these steps to get the API running:
  $ python dev_server.py
 ```
 
-Based on the default configuration of the APIB, you can now work with the entire OpenSpending database hosted by Open Knowledge International from your local machine. If you want to point to a different OpenSpending instance, configure your environment variables accordingly based on the details below.
+Based on the default configuration of the API, you can now work with your local OpenSpending database hosted on your local machine. If you want to point to a different OpenSpending instance, configure your environment variables accordingly based on the details below.
 
 ## Interface
 
