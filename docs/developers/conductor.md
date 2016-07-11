@@ -187,7 +187,6 @@ If authenticated:
         "email": "<user-email>",
         "avatar_url": "<url-for-user's-profile-photo>",
         "idhash": "<unique-id-of-the-user>",
-        "username": "<user-selected-id>"
     }
 }
 ```
