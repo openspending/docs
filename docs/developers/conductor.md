@@ -45,7 +45,7 @@ JSON content with the following structure:
         "name": "<data-set-unique-id>"
     },
     "filedata": {
-        "<path-to-file>": {
+        "<relative-path-to-file-in-package>": {
             "length": 1234, #length in bytes of data
             "md5": "<md5-hash-of-the-data>",
             "type": "<content-type-of-the-data>",
@@ -55,7 +55,9 @@ JSON content with the following structure:
 }
 ```
 
-### Upload a package to the OpenSpending DB
+`owner` must match the `userid` that is in the uthentication token.
+
+### Load a datastore package into the OpenSpending DB
 `/package/upload`
 
 **Method:** `POST`
@@ -99,6 +101,8 @@ JSON content with the following structure:
     - `done`: Done
     - `fail`: Failed
  - `progress`: # of records loaded so far
+
+Wil return an `HTTP 404` if the package is not being loaded right now.
 
 ### Toggle or set a package's privacy setting
 `/package/publish`
