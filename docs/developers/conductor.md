@@ -45,17 +45,24 @@ JSON content with the following structure:
         "name": "<data-set-unique-id>"
     },
     "filedata": {
-        "<relative-path-to-file-in-package>": {
+        "<relative-path-to-file-in-package-1>": {
             "length": 1234, #length in bytes of data
             "md5": "<md5-hash-of-the-data>",
             "type": "<content-type-of-the-data>",
             "name": "<file-name>"
         }
+        "<relative-path-to-file-in-package-2>": {
+            "length": 4321, 
+            "md5": "<md5-hash-of-the-data>",
+            "type": "<content-type-of-the-data>",
+            "name": "<file-name>"
+        }
+        ...
     }
 }
 ```
 
-`owner` must match the `userid` that is in the uthentication token.
+`owner` must match the `userid` that is in the authentication token.
 
 ### Load a datastore package into the OpenSpending DB
 `/package/upload`
