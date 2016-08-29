@@ -24,7 +24,9 @@ Once you have installed Docker Toolbox (or if you already have it installed), en
 - `docker-compose -v` *must be* `1.6.0` or higher
 - `docker-machine -v` *must be* `0.6.0` or higher
 
-#### Configuration
+#### Installing Docker-Machine
+
+__Note__: If you are running linux, you can skip the whole part about `docker-machine`.
 
 If you already had Docker Machine installed, and you *upgraded* Docker Toolbox when following the steps above, then run the following to get your Docker Machine image updated:
 
