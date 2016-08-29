@@ -45,17 +45,24 @@ JSON content with the following structure:
         "name": "<data-set-unique-id>"
     },
     "filedata": {
-        "<relative-path-to-file-in-package>": {
+        "<relative-path-to-file-in-package-1>": {
             "length": 1234, #length in bytes of data
             "md5": "<md5-hash-of-the-data>",
             "type": "<content-type-of-the-data>",
             "name": "<file-name>"
         }
+        "<relative-path-to-file-in-package-2>": {
+            "length": 4321, 
+            "md5": "<md5-hash-of-the-data>",
+            "type": "<content-type-of-the-data>",
+            "name": "<file-name>"
+        }
+        ...
     }
 }
 ```
 
-`owner` must match the `userid` that is in the uthentication token.
+`owner` must match the `userid` that is in the authentication token.
 
 ### Load a datastore package into the OpenSpending DB
 `/package/upload`
@@ -187,7 +194,6 @@ If authenticated:
         "email": "<user-email>",
         "avatar_url": "<url-for-user's-profile-photo>",
         "idhash": "<unique-id-of-the-user>",
-        "username": "<user-selected-id>"
     }
 }
 ```
@@ -205,33 +211,35 @@ If not:
 }
 ```
 
-When authentication flow is finished, the caller will be redirected to the `next` URL with an extra query parameter
-`jwt` which will contain the authentication token. The caller should save this token for further interactions.
+When the authentication flow is finished, the caller will be redirected to the `next` URL with an extra query parameter `jwt` which contains the authentication token. The caller should cache this token for further interactions with the API.
 
-### Get permission for a certain user to perform a specific action
+### Get permission for a service
 `/user/authorize`
 
 **Method:** `GET`
 
 **Query Parameters:**
 
- - `jwt` - permission token (received from `/user/authorize`)
- - `service` - Service to get permissions for (e.g. `os.datastore`)
+ - `jwt` - user token (received from `/user/check`)
+ - `service` - the relevant service (e.g. `os-datastore`)
 
 **Returns:**
 
 ```json
 {
+    "token": "<token-for-the-relevant-service>"
     "userid": "<unique-id-of-the-user>",
     "permissions": {
         "permission-x": true,
         "permission-y": false
     },
-    "service": "<service-for-which-this-is-relevant>"
+    "service": "<relevant-service>"
 }
 ```
 
-### Change fields in a user's profile
+__Note__: as of yet: the `permissions` property is still returned empty. Real permissions will be implemented soon.
+
+### Change the username
 `/user/update`
 
 **Method:** `POST`
@@ -239,7 +247,7 @@ When authentication flow is finished, the caller will be redirected to the `next
 **Query Parameters:**
 
  - `jwt` - authentication token (received from `/user/check`)
- - `username` - If provided, will set the username for the profile (action only allowed once)
+ - `username` - A new username for the user profile (this action is only allowed once)
 
 **Returns:**
 
@@ -247,6 +255,14 @@ When authentication flow is finished, the caller will be redirected to the `next
 {
     "success": true,
     "error": "<error-message-if-applicable>"
+}
+```
+
+__Note__: trying to update other user profile fields like `email` will fail silently and return 
+
+```json
+{
+    "success": true
 }
 ```
 
