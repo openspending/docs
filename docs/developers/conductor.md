@@ -50,9 +50,9 @@ JSON content with the following structure:
             "md5": "<md5-hash-of-the-data>",
             "type": "<content-type-of-the-data>",
             "name": "<file-name>"
-        }
+        },
         "<relative-path-to-file-in-package-2>": {
-            "length": 4321, 
+            "length": 4321,
             "md5": "<md5-hash-of-the-data>",
             "type": "<content-type-of-the-data>",
             "name": "<file-name>"
@@ -194,6 +194,7 @@ If authenticated:
         "email": "<user-email>",
         "avatar_url": "<url-for-user's-profile-photo>",
         "idhash": "<unique-id-of-the-user>",
+        "username": "<user-selected-id>" # If user has a username
     }
 }
 ```
@@ -211,7 +212,8 @@ If not:
 }
 ```
 
-When the authentication flow is finished, the caller will be redirected to the `next` URL with an extra query parameter `jwt` which contains the authentication token. The caller should cache this token for further interactions with the API.
+When the authentication flow is finished, the caller will be redirected to the `next` URL with an extra query parameter
+`jwt` which contains the authentication token. The caller should cache this token for further interactions with the API.
 
 ### Get permission for a service
 `/user/authorize`
@@ -221,7 +223,7 @@ When the authentication flow is finished, the caller will be redirected to the `
 **Query Parameters:**
 
  - `jwt` - user token (received from `/user/check`)
- - `service` - the relevant service (e.g. `os-datastore`)
+ - `service` - the relevant service (e.g. `os.datastore`)
 
 **Returns:**
 
@@ -258,7 +260,7 @@ __Note__: as of yet: the `permissions` property is still returned empty. Real pe
 }
 ```
 
-__Note__: trying to update other user profile fields like `email` will fail silently and return 
+__Note__: trying to update other user profile fields like `email` will fail silently and return
 
 ```json
 {

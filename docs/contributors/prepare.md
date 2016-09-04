@@ -29,12 +29,33 @@ OpenSpending uses a flat file datastore to store the raw data provided by users,
 
 ### Checking data quality with the Packager
 
-{
-Use packager to add a data source, and show the UI for the GoodTables error report.
-}
+1. Access OS Packager: http://next.openspending.org/packager/provide-data.
+![Image 1](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/DQ%201..jpg)
+
+2. Authenticate to OpenSpending by clicking “Login/Register” in the upper-right corner.
+![Image 2](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/login..jpg)
+
+3. Select a file/data source from your computer or insert a URL.
+![Image 3](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/DQ%203..jpg)
+
+4. If your data source passed the “validation step,” you will get a message saying “Resource is valid. Now you can continue.”
+![Image 4](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/DQ%205..jpg)
+
+5. If the data source contain errors, you will get the following message: “There are some errors. Click here to view details.”
+![Image 5](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/DQ%202..jpg)
+
+6. Click to see the “Data Validation Results.”
+![Image 6](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/DQ%204..jpg)
+
+7. Correct errors in your data source and try again.
 
 ### Checking data quality with the CLI
 
-{
-Use CLI on a data source to get a goodtables result, showing data errors.
-}
+1. Download the goodtables library, which is a Python package, and can be used as a command line tool. It runs on Python 2 or 3:`pip install goodtables`
+
+2. Ensure goodtables is installed correctly by typing `goodtables` in your shell. You should see something like the following:
+![Image 6](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Picture1.png)
+
+3. We want to check the structure of our CSV file. This is done with the following command: `goodtables structure {PATH_TO_FILE}`. See two screenshots below, one with a check that returned structural errors, and one with a check that found the file valid.
+![Image 7](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Picture2.png)
+![Image 8](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Picture3.png)
