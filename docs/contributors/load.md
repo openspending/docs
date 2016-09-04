@@ -21,40 +21,40 @@ The CLI provides a simple command line interface to interact with an OpenSpendin
 ### Load data via the Packager
 
 1. After assigning a DataType to each column in your file and packaging the data, you can proceed to step 3 of the data upload process.
-![Image1](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Step%203%20provide%20metadata.jpg)
+![Image1](https://raw.githubusercontent.com/openspending/docs/master/images/Step%203%20provide%20metadata.jpg)
 
 2. At step 3 “Provide metadata,” name your dataset and provide metadata for better indexing. Include at least a Data Package name and a unique identifier.
-![Image2](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Metadata..jpg)
+![Image2](https://raw.githubusercontent.com/openspending/docs/master/images/Metadata..jpg)
 
 3. As soon as you provide the details about your data, you will get a message saying “Congratulations! Now you can verify your Data Package and download it”:
-![Image3](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/step%203%20continue.jpg)
+![Image3](https://raw.githubusercontent.com/openspending/docs/master/images/step%203%20continue.jpg)
 
 4. Click “Continue” to proceed to Step 4 to either “Download” the JSON file or “Publish this Data Package.”
-![Image4](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Step%204..jpg)
+![Image4](https://raw.githubusercontent.com/openspending/docs/master/images/Step%204..jpg)
 
 5. If you are logged in, you will be able to download or publish the data package. If not, you will be reminded to “Login to publish” before being able to move forward.
-![Image5](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/login%20to%20publish..jpg)
+![Image5](https://raw.githubusercontent.com/openspending/docs/master/images/login%20to%20publish..jpg)
 
 6. Two bars will show the progress of publishing your data.
-![Image6](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/publishing%20status..jpg)
+![Image6](https://raw.githubusercontent.com/openspending/docs/master/images/publishing%20status..jpg)
 
 7. Once your file was published, you can continue to exploring and visualizing your data in OS Viewer, by clicking “Explore and visualize your data now!”
-![Image7](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/finalize.jpg)
+![Image7](https://raw.githubusercontent.com/openspending/docs/master/images/finalize.jpg)
 
 8. If you want your data to be available to the larger audience, publish it from OS Admin. To access OS Admin, click on your name in the upper-right corner, and then click “Profile,” which will take you to OS Admin.
 
-![Image8](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/click%20on%20name..jpg)
+![Image8](https://raw.githubusercontent.com/openspending/docs/master/images/click%20on%20name..jpg)
 
-![Image9](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/click%20profile..jpg)
+![Image9](https://raw.githubusercontent.com/openspending/docs/master/images/click%20profile..jpg)
 
 9. In the menu on the left of the screen, click “My datasets.”
-![Image10](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/os%20admin..jpg)
+![Image10](https://raw.githubusercontent.com/openspending/docs/master/images/os%20admin..jpg)
 
 10. You will be able to see the number of uploaded, published and hidden datasets.
-![Image11](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/os%20admin1..jpg)
+![Image11](https://raw.githubusercontent.com/openspending/docs/master/images/os%20admin1..jpg)
 
 11. In OS Admin you have the ability to search your datasets, publish or unpublish a dataset. To finalize publishing, click “Publish” next to the dataset you want to make available.
-![Image12](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/publish..jpg)
+![Image12](https://raw.githubusercontent.com/openspending/docs/master/images/publish..jpg)
 
 ### Load data via the CLI
 

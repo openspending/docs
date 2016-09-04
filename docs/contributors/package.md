@@ -35,9 +35,9 @@ Before starting to assign DataTypes to your columns, take a look at what does ea
 
 ***Classifications***
 
-**Administrative classification** - the entity responsible for managing the public funds, such as the Ministry of Health, Education, Social Protection (or at a lower level, schools and hospitals). Examples: 
-* National Social Insurance Company 
-* Agency for Payments and Intervention in Agriculture 
+**Administrative classification** - the entity responsible for managing the public funds, such as the Ministry of Health, Education, Social Protection (or at a lower level, schools and hospitals). Examples:
+* National Social Insurance Company
+* Agency for Payments and Intervention in Agriculture
 * State Tax Inspectorate
 * Social support and care actions and facilities
 * Local City Council
@@ -116,13 +116,13 @@ Examples:
 Below are the steps to package your data source:
 
 1. After your data source is validated, you can continue to step 2, “Describe your data.”
-![Image 1](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Package%201..jpg)
+![Image 1](https://raw.githubusercontent.com/openspending/docs/master/images/Package%201..jpg)
 
 2. Describe your data by assigning a DataType to each column.
-![Image 2](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/datatypes.png)
+![Image 2](https://raw.githubusercontent.com/openspending/docs/master/images/datatypes.png)
 
 3. Click in the box under “DataType” to see the options. Assign a Time (Date: “Fiscal year” or “Other Date”); Classifications (Administrative, Economic, and Functional); Activity (Contract, Program, Project or Sub-project); Participating entities (Administrator, Procurer, Recipient, Supplier); Fiscal Attributes (Budgetary Transfers, Budget Direction, Expenditure Type, Financial Source, Budget Life-cycle Phase); Geographic information; Identifiers (Budget Line Identifier or Invoice Identifier); an Amount or Other (Unknown Mapping).
 4. Assign at least a date and a value to your data source to continue.
 
 5. Once you have successfully assigned at least a “Date” and an “Amount” and any other DataType, you will get a message saying: “Now that you have modeled your resource, you can continue to the next step."
-![Image 3](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Package%203..jpg)
+![Image 3](https://raw.githubusercontent.com/openspending/docs/master/images/Package%203..jpg)

@@ -5,13 +5,13 @@ OpenSpending is a large and growing database of fiscal data. The way to discover
 ## Walkthroughs
 
 1. Access OS Explorer: http://next.openspending.org/explorer/.
-![Image1](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/OS%20Explorer%201.jpg)
+![Image1](https://raw.githubusercontent.com/openspending/docs/master/images/OS%20Explorer%201.jpg)
 
 2. Type in the search field to find the desired data package, using the title you were provided, or according to country name, dimension (entity, location, date etc). You will be automatically directed to the results page.
-![Image2](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/OS%20Explorer%202..jpg)
+![Image2](https://raw.githubusercontent.com/openspending/docs/master/images/OS%20Explorer%202..jpg)
 
 3. If there are two or more similar data packages, make sure you work with the intended file.
-![Image3](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/OS%20Explorer%203..jpg)
+![Image3](https://raw.githubusercontent.com/openspending/docs/master/images/OS%20Explorer%203..jpg)
 
 4. Click the desired data package, which will take you to OS Viewer.
-![Image4](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/OS%20Explorer%204..jpg)
+![Image4](https://raw.githubusercontent.com/openspending/docs/master/images/OS%20Explorer%204..jpg)

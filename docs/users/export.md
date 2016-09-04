@@ -10,12 +10,12 @@ We've found that quite a few people want to get the raw data from OpenSpending. 
 
 2. Go to the bottom section of the OS Viewer, where you will see “Data Resources.”
 
-![Image1](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Download%201..jpg)
+![Image1](https://raw.githubusercontent.com/openspending/docs/master/images/Download%201..jpg)
 
 3. Choose to either “Download Data Package” or “View Raw Source Data.” First option will download the JSON file:
 
-![Image2](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Data%20download%202..jpg)
+![Image2](https://raw.githubusercontent.com/openspending/docs/master/images/Data%20download%202..jpg)
 
 The second option, “View Raw Source Data,” will take you to OpenSpending’s data store.
 
-![Image3](https://raw.githubusercontent.com/VictoriaVlad/docs/master/images/Download%203..jpg)
+![Image3](https://raw.githubusercontent.com/openspending/docs/master/images/Download%203..jpg)
