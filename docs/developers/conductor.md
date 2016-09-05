@@ -64,6 +64,34 @@ JSON content with the following structure:
 
 `owner` must match the `userid` that is in the authentication token.
 
+### Get information regarding the datastore
+`/datastore/info`
+
+**Method:** `GET`
+
+**Query Parameters:**
+
+ - `jwt` - permission token (received from `/user/authorize`)
+
+**Headers:**
+
+ - `Auth-Token` - permission token (can be used instead of the `jwt` query parameter)
+
+**Returns:**
+
+JSON content with the following structure:
+```json
+{
+    "prefixes": [
+        'https://datastore.openspending.org/123456789',
+        ...
+    ]
+}
+```
+
+`prefixes` is the list of possible prefixes for an uploaded file for this user.
+
+
 ### Load a datastore package into the OpenSpending DB
 `/package/upload`
 
