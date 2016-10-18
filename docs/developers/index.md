@@ -14,6 +14,7 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Auth Client](auth-client/)
 - [CLI](cli/)
 - [Where Does My Money Go?](wdmmg/)
+- [Theming Guide](theming-guide/)
 
 # Getting started
 
