@@ -3,6 +3,7 @@
 Some of our web-apps can be themed, i.e. some visual properties can be modified.
 This might be useful when embedding parts of OpenSpending in a different website, or when deploying a separation installation of OpenSpending altogether.
 
+## Usage
 The customisable visual elements include colours, logos, header and footer links etc.
 
 We have a few built-in themes. Each theme is represented as a `json` file under `app/config/themes`.
@@ -11,6 +12,7 @@ By default, apps will use `default.json` (the default theme). If the URL contain
 
 Themes always use `default.json` as a basis, so that you can override only part of the scheme (or even modify single list elements: use `{}` to use a list element unchanged and `false` to remove one).
 
+## Adding new themes
 In order to use your own theme, you might choose one of these implementation paths:
 
 - Independent installs of our app will have a single point of modification for theming. Source installations can edit the file directly. Docker deployments can override `default.json` or add a new theme using Docker's ADD command.
