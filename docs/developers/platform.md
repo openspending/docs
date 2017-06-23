@@ -1,6 +1,6 @@
 # OpenSpending platform
 
-The OpenSpending platform has been designed as a set of loosely coupled components, each performing distinct functions related to the platform as a whole. For an overview of the platform components, [see here](../developer/).
+The OpenSpending platform has been designed as a set of loosely coupled components, each performing distinct functions related to the platform as a whole. For an overview of the platform components, [see here](../developers/).
 
 Local installation and remote deployment of OpenSpending is orchestrated with Docker; specifically [Docker Compose](https://docs.docker.com/compose/). There are configurations available that are tailored to each target.
 
