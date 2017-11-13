@@ -54,7 +54,7 @@ npm test
 npm start
 
 # load the app in your default browser
-open http://127.0.0.1:5000
+open http://127.0.0.1:8000
 ```
 
 Based on the default configuration of the Explorer, you can now work with the entire OpenSpending database hosted by Open Knowledge International from your local machine. If you want to point to a different OpenSpending instance, configure your environment variables accordingly based on the details below.
