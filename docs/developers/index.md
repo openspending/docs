@@ -14,6 +14,7 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Auth Client](auth-client/)
 - [CLI](cli/)
 - [Where Does My Money Go?](wdmmg/)
+- [Monitoring](#monitoring)
 - [Theming Guide](theming-guide/)
 
 # Getting started
@@ -94,3 +95,22 @@ Where Does My Money Go? is a simple visualisation of government budget and spend
 
 - [Where Does My Money Go? docs](wdmmg/)
 - [Where Does My Money Go? code](https://github.com/openspending/wheredoesmymoneygo.org)
+
+### Monitoring
+
+Error monitoring with [Sentry](https://sentry.io/) is supported for several of the OpenSpending applications. To configure a container for Sentry, add the appropriate DSN value as an environmental variable. Sentry DSN values can be found within the Sentry project settings > Client Keys (DSN). 
+
+#### Private DSN
+
+Add the environmental variable `SENTRY_DSN` with the appropriate **private** Sentry DSN value for each of the following containers:
+
+- os-viewer
+- os-packager
+- os-api
+
+#### Public DSN
+
+The following applications require the **public** Sentry DSN key, as it is used by client-side code. Add the environmental variable `SENTRY_PUBLIC_DSN` with the public Sentry DSN value for each of the following containers:
+
+- os-admin
+- os-explorer
