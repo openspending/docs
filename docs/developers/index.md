@@ -15,6 +15,7 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [CLI](cli/)
 - [Where Does My Money Go?](wdmmg/)
 - [Monitoring](#monitoring)
+- [Status and Incident Notifications](#status-and-incident-notifications)
 - [Theming Guide](theming-guide/)
 
 # Getting started
@@ -104,9 +105,9 @@ Error monitoring with [Sentry](https://sentry.io/) is supported for several of t
 
 Add the environmental variable `SENTRY_DSN` with the appropriate **private** Sentry DSN value for each of the following containers:
 
-- os-viewer
-- os-packager
 - os-api
+- os-packager
+- os-viewer
 
 #### Public DSN
 
@@ -115,3 +116,9 @@ The following applications require the **public** Sentry DSN key, as it is used 
 - os-admin
 - os-explorer
 - os-viewer (os-viewer uses both the private and public DSN keys)
+
+### Status and Incident Notifications
+
+Application availability status for the OpenSpending website and the OpenSpending API is automatically monitored and available from the OpenSpending status dashboard: https://status.openspending.org/.
+
+Users can subscribe to receive notifications about the availability status of OpenSpending, and other ad-hoc incident reports such as scheduled maintenance, from the status dashboard. Click the 'Subscribe' button at the bottom of the page to receive email notifications, or subscribe to the RSS/Atom feeds.
