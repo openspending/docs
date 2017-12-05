@@ -119,6 +119,6 @@ The following applications require the **public** Sentry DSN key, as it is used 
 
 ### Status and Incident Notifications
 
-Application availability status for the OpenSpending website and the OpenSpending API is automatically monitored and available from the OpenSpending status dashboard: https://status.openspending.org/.
+Application availability status for the OpenSpending website and the OpenSpending API is automatically monitored and available from the OpenSpending status dashboard: [https://status.openspending.org/](https://status.openspending.org/).
 
 Users can subscribe to receive notifications about the availability status of OpenSpending, and other ad-hoc incident reports such as scheduled maintenance, from the status dashboard. Click the 'Subscribe' button at the bottom of the page to receive email notifications, or subscribe to the RSS/Atom feeds.
