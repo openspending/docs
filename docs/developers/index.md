@@ -98,7 +98,7 @@ Where Does My Money Go? is a simple visualisation of government budget and spend
 
 ### Monitoring
 
-Error monitoring with [Sentry](https://sentry.io/) is supported for several of the OpenSpending applications. To configure a container for Sentry, add the appropriate DSN value as an environmental variable. Sentry DSN values can be found within the Sentry project settings > Client Keys (DSN). 
+Error monitoring with [Sentry](https://sentry.io/) is supported for several of the OpenSpending applications. To configure an application container for Sentry, add the appropriate DSN value as an environmental variable. Sentry DSN values can be found within the Sentry project settings > Client Keys (DSN). 
 
 #### Private DSN
 
@@ -114,3 +114,4 @@ The following applications require the **public** Sentry DSN key, as it is used 
 
 - os-admin
 - os-explorer
+- os-viewer (os-viewer uses both the private and public DSN keys)
