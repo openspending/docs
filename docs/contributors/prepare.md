@@ -29,7 +29,7 @@ OpenSpending uses a flat file datastore to store the raw data provided by users,
 
 ### Checking data quality with the Packager
 
-1. Access OS Packager: http://next.openspending.org/packager/provide-data.
+1. Access OS Packager: https://openspending.org/packager/provide-data.
 ![Image 1](https://raw.githubusercontent.com/openspending/docs/master/images/DQ%201..jpg)
 
 2. Authenticate to OpenSpending by clicking “Login/Register” in the upper-right corner.

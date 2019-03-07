@@ -7,7 +7,7 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Datastore](datastore/)
 - [API](#api)
 - [Conductor](#conductor)
-- [Packager](packager/)
+- [Packager](#packager)
 - [Viewer](viewer/)
 - [Explorer](explorer/)
 - [Views](views/)
@@ -50,8 +50,7 @@ A set of integration web services for OpenSpending, responsible for identity, no
 
 The OpenSpending Packager is a Javascript application to validate source data, model it into a Fiscal Data Package, and publish data to the OpenSpending Datastore.
 
-- [Packager docs](packager/)
-- [Packager code](https://github.com/openspending/os-packager)
+- [os-packager docs and code](https://github.com/openspending/os-packager)
 
 ### Viewer
 
