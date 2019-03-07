@@ -22,7 +22,7 @@ OpenSpending loads and stores data in common tabular data formats such as CSV an
 
 ### Package
 
-OpenSpending "understands" the contents of a source data file via another "descriptor" called a [Fiscal Data Package](http://fiscal.dataprotocols.org/spec/). Learn about packaging your data as a Fiscal Data Package.
+OpenSpending "understands" the contents of a source data file via another "descriptor" called a [Fiscal Data Package](http://frictionlessdata.io/specs/fiscal-data-package/). Learn about packaging your data as a Fiscal Data Package.
 
 * [Package docs](package/)
 

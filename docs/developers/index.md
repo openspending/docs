@@ -29,7 +29,7 @@ OpenSpending as a complete platform is run as a set of Docker containers via Doc
 
 ### Datastore
 
-The OpenSpending Datastore is a flat file datastore with source data stored in [Fiscal Data Packages](http://fiscal.dataprotocols.org/spec/).
+The OpenSpending Datastore is a flat file datastore with source data stored in [Fiscal Data Packages](http://frictionlessdata.io/specs/fiscal-data-package/).
 
 - [Datastore docs](datastore/)
 
