@@ -18,7 +18,6 @@ pages:
   - Views: developers/views.md
   - 'Auth Client': developers/auth-client.md
   - CLI: developers/cli.md
-  - 'Where Does My Money Go?': developers/wdmmg.md
 - Contributors:
   - 'Getting started': contributors/index.md
   - Prepare: contributors/prepare.md

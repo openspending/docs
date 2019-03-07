@@ -13,7 +13,6 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Views](views/)
 - [Auth Client](auth-client/)
 - [CLI](cli/)
-- [Where Does My Money Go?](wdmmg/)
 - [Monitoring](#monitoring)
 - [Status and Incident Notifications](#status-and-incident-notifications)
 - [Theming Guide](theming-guide/)
@@ -90,16 +89,9 @@ The OpenSpending CLI is a Python lib and command line interface to interact with
 - [CLI docs](cli/)
 - [CLI code](https://github.com/openspending/os-cli)
 
-### Where Does My Money Go?
-
-Where Does My Money Go? is a simple visualisation of government budget and spend data, using the bubble tree and map components.
-
-- [Where Does My Money Go? docs](wdmmg/)
-- [Where Does My Money Go? code](https://github.com/openspending/wheredoesmymoneygo.org)
-
 ### Monitoring
 
-Error monitoring with [Sentry](https://sentry.io/) is supported for several of the OpenSpending applications. To configure an application container for Sentry, add the appropriate DSN value as an environmental variable. Sentry DSN values can be found within the Sentry project settings > Client Keys (DSN). 
+Error monitoring with [Sentry](https://sentry.io/) is supported for several of the OpenSpending applications. To configure an application container for Sentry, add the appropriate DSN value as an environmental variable. Sentry DSN values can be found within the Sentry project settings > Client Keys (DSN).
 
 #### Private DSN
 
