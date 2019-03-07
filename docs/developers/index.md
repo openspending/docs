@@ -9,8 +9,8 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Conductor](#conductor)
 - [Packager](#packager)
 - [Viewer](#viewer)
-- [Explorer](explorer/)
-- [Views (babbage.ui)](views/)
+- [Views (babbage.ui)](#views)-
+- [Explorer](#explorer)
 - [Auth Client](auth-client/)
 - [CLI](cli/)
 - [Monitoring](#monitoring)
@@ -66,10 +66,9 @@ The OpenSpending Views library is a set of JavaScript components for the visuali
 
 ### Explorer
 
-The OpenSpending Explorer is a Javascript application that provides an interface to explore the packages available in the OpenSpending database.
+The OpenSpending Explorer is a Javascript application that provides an interface to search for and explore the packages available in the OpenSpending database.
 
-- [Explorer docs](explorer/)
-- [Explorer code](https://github.com/openspending/os-explorer)
+- [os-explorer docs and code](https://github.com/openspending/os-explorer)
 
 ### Auth Client
 
