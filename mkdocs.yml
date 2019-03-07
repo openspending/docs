@@ -7,7 +7,6 @@ pages:
   - Start: index.md
 - Developers:
   - 'Getting started': developers/index.md
-  - Platform: developers/platform.md
   - Datastore: developers/datastore.md
   - Theming Guide: developers/theming-guide.md
   - Views: developers/views.md

@@ -3,7 +3,7 @@
 This section of the OpenSpending documentation is for developers. Here you can learn about the design of the platform, and how to get OpenSpending running locally or on your own servers, and the process for contributing enhancements and bug fixes to the code.
 
 - [Getting started](#getting-started)
-- [Platform](platform/)
+- [Platform](#platform)
 - [Datastore](datastore/)
 - [API](#api)
 - [Conductor](#conductor)
@@ -19,13 +19,15 @@ This section of the OpenSpending documentation is for developers. Here you can l
 
 # Getting started
 
-Let's get started then! If you want to get the whole OpenSpending platform running locally, or deployed to your own servers, then go straight to the [platform](platform/) section of the documentation. For details on distinct components, go to the appropriate section from the list below.
+Let's get started then! If you want to get the whole OpenSpending platform running locally, or deployed to your own servers, then go straight to the [platform](#platform) section of the documentation. For details on distinct components, go to the appropriate section from the list below.
 
 ### Platform
 
-OpenSpending as a complete platform is run as a set of Docker containers via Docker Compose. Configurations are available to get running quickly on a local machine, or a remote server for production use.
+OpenSpending as a complete platform is a set of Docker containers, run via Docker Compose in development. Configurations are available to get running quickly on a local machine, and pre-built Docker images are available for deployment to a remote server for production use. Details to run the platform are available in the central github repository README: https://github.com/openspending/openspending
 
-- [Platform docs](platform/)
+- [Platform docs and code](https://github.com/openspending/openspending)
+- [Platform issues tracker](https://github.com/openspending/openspending/issues)
+- [Docker hub organisation](https://hub.docker.com/r/openspending/)
 
 ### Datastore
 
