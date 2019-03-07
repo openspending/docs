@@ -28,7 +28,7 @@ OpenSpending "understands" the contents of a source data file via another "descr
 
 ### Load
 
-It is possible to load Fiscal Data Packages into OpenSpending via a web app (the Packager) and CLI.
+It is possible to load Fiscal Data Packages into OpenSpending via a web app (the Packager) or a data pipeline ([os-data-importers](https://github.com/openspending/os-data-importers).
 
 * [Load docs](load/)
 

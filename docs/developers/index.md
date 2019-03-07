@@ -12,7 +12,6 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Views (babbage.ui)](#views)
 - [Explorer](#explorer)
 - [Auth Client](#auth-client)
-- [CLI](cli/)
 - [Monitoring](#monitoring)
 - [Status and Incident Notifications](#status-and-incident-notifications)
 - [Theming Guide](theming-guide/)
@@ -75,13 +74,6 @@ The OpenSpending Explorer is a Javascript application that provides an interface
 The OpenSpending Auth Client is a Javascript library for working with the OpenSpending Auth APIs.
 
 - [Auth Client docs and code](https://github.com/openspending/os-auth-client)
-
-### CLI
-
-The OpenSpending CLI is a Python lib and command line interface to interact with an OpenSpending instance.
-
-- [CLI docs](cli/)
-- [CLI code](https://github.com/openspending/os-cli)
 
 ### Monitoring
 
