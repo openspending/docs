@@ -8,9 +8,9 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [API](#api)
 - [Conductor](#conductor)
 - [Packager](#packager)
-- [Viewer](viewer/)
+- [Viewer](#viewer)
 - [Explorer](explorer/)
-- [Views](views/)
+- [Views (babbage.ui)](views/)
 - [Auth Client](auth-client/)
 - [CLI](cli/)
 - [Monitoring](#monitoring)
@@ -56,8 +56,13 @@ The OpenSpending Packager is a Javascript application to validate source data, m
 
 The OpenSpending Viewer is a Javascript application that provides views over data uploaded to OpenSpending.
 
-- [Viewer docs](viewer/)
-- [Viewer code](https://github.com/openspending/os-viewer)
+- [os-viewer docs and code](https://github.com/openspending/os-viewer)
+
+### Views (babbage.ui)
+
+The OpenSpending Views library is a set of JavaScript components for the visualisation of fiscal data.
+
+- [babbage.ui docs and code](https://github.com/openspending/babbage.ui)
 
 ### Explorer
 
@@ -65,13 +70,6 @@ The OpenSpending Explorer is a Javascript application that provides an interface
 
 - [Explorer docs](explorer/)
 - [Explorer code](https://github.com/openspending/os-explorer)
-
-### Views
-
-The OpenSpending Views library is a set of JavaScript components for the visualisation of fiscal data.
-
-- [Views documentation](views/)
-- [Views code](https://github.com/openspending/babbage.ui/tree/feature/modern)
 
 ### Auth Client
 
