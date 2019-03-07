@@ -11,7 +11,8 @@ Welcome to the OpenSpending documentation. Choose the appropriate section and di
 ## Links
 
 * [OpenSpending community](http://community.openspending.org/)
+* [OpenSpending chat](https://gitter.im/openspending/chat)
 * [OpenSpending platform](https://openspending.org/)
-* [OpenSpending documentation](http://docs.openspending.org/)
+* [OpenSpending documentation](https://docs.openspending.org/)
 * [OpenSpending issue tracker](https://github.com/openspending/openspending/issues)
 * [OpenSpending on GitHub](https://github.com/openspending)

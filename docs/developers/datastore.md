@@ -1,11 +1,11 @@
 # OpenSpending Datastore
 
-The OpenSpending Datastore is a flat file datastore with source data stored in [Fiscal Data Packages](http://fiscal.dataprotocols.org/spec/).
+The OpenSpending Datastore is a flat file datastore with source data stored in [Fiscal Data Packages](https://frictionlessdata.io/specs/fiscal-data-package/).
 
-There is not a great deal to document. The following notes are important to know:
+The following notes are important to know:
 
 - The Datastore runs from S3, or, an object storage which supports the S3 API.
-- The Datastore is the point of truth for data, holding the raw data sources, and the [Fiscal Data Package](http://fiscal.dataprotocols.org/spec/) that describes the sources.
+- The Datastore is the point of truth for data, holding the raw data sources, and the [Fiscal Data Package](https://frictionlessdata.io/specs/fiscal-data-package/) that describes the sources.
 - All data coming into OpenSpending first hits the Datastore. From the Datastore, various services read this data and create derived databases to represent the data in certain ways. For example, the data is read into an SQL backend to provide the analytics API, and a search backend for the search API.
 
 ## Configuration
@@ -56,14 +56,3 @@ You need a user that has permissions to read and write to the bucket. It is best
   </CORSRule>
 </CORSConfiguration>
 ```
-
-### Contributing code
-
-Found a bug? Got neat way to refactor an existing code path? Bursting with ideas to make OpenSpending more awesome?
-
-We *can't wait* to see your contributions. Here are a few things that will help:
-
-- All open issues for the Packager [can be found here](http://github.com/openspending/openspending/issues), labeled "Packager". If you are working on an existing issue, please let us know by commenting on an issue. Likewise, if you are working on something new, open an issue to let us know.
-- We follow a set of [coding standards](https://github.com/okfn/coding-standards), and we have simple examples of those coding standards implemented for [Python](https://github.com/okfn/oki-py) and [Javascript](https://github.com/okfn/oki-js). Please do read before starting.
-
-If anything is unclear, or you just want to talk with other people working on OpenSpending, then catch us on [Gitter.im](http://gitter.im/openspending/chat).

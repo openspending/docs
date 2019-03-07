@@ -5,14 +5,14 @@ It is possible to load Fiscal Data Packages into OpenSpending via a web app (the
 ## Using the Packager
 
 - [Code repo](https://github.com/openspending/os-packager)
-- [Packager URL](http://next.openspending.org/packager)
+- [Packager URL](https://openspending.org/packager)
 
 The Packager provides a simple user interface to load data into OpenSpending. The app is a wizard that guides the user through the uploading of a data source, the modeling of a Fiscal Data Package, the provision of metadata, and publication to the OpenSpending Datastore.
 
 ## Using the CLI
 
 - [Code repo](https://github.com/openspending/os-cli)
-- [CLI docs](http://docs.openspending.org/en/latest/developers/cli/)
+- [CLI docs](https://docs.openspending.org/en/latest/developers/cli/)
 
 The CLI provides a simple command line interface to interact with an OpenSpending instance. Using the CLI, you can authenticate with an OpenSpending instance and then push data directly to the datastore.
 

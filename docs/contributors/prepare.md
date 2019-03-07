@@ -1,6 +1,6 @@
 # Prepare data for OpenSpending
 
-OpenSpending loads and stores data in common tabular data formats such as CSV and Excel. While the system can work with a range of data structures in these files, due to the flexible modeling scheme of [Fiscal Data Package](http://fiscal.dataprotocols.org/spec/), a minimum set of quality requirements must be met.
+OpenSpending loads and stores data in common tabular data formats such as CSV and Excel. While the system can work with a range of data structures in these files, due to the flexible modeling scheme of [Fiscal Data Package](https://frictionlessdata.io/specs/fiscal-data-package/), a minimum set of quality requirements must be met.
 
 ## Minimum quality requirements
 
@@ -29,7 +29,7 @@ OpenSpending uses a flat file datastore to store the raw data provided by users,
 
 ### Checking data quality with the Packager
 
-1. Access OS Packager: http://next.openspending.org/packager/provide-data.
+1. Access OS Packager: https://openspending.org/packager/provide-data.
 ![Image 1](https://raw.githubusercontent.com/openspending/docs/master/images/DQ%201..jpg)
 
 2. Authenticate to OpenSpending by clicking “Login/Register” in the upper-right corner.
