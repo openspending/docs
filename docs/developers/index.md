@@ -16,6 +16,7 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Monitoring](#monitoring)
 - [Status and Incident Notifications](#status-and-incident-notifications)
 - [Theming Guide](theming-guide/)
+- [Contributing Code](#contributing-code)
 
 # Getting started
 
@@ -113,3 +114,14 @@ The following applications require the **public** Sentry DSN key, as it is used 
 Application availability status for the OpenSpending website and the OpenSpending API is automatically monitored and available from the OpenSpending status dashboard: [https://status.openspending.org/](https://status.openspending.org/).
 
 Users can subscribe to receive notifications about the availability status of OpenSpending, and other ad-hoc incident reports such as scheduled maintenance, from the status dashboard. Click the 'Subscribe' button at the bottom of the page to receive email notifications, or subscribe to the RSS/Atom feeds.
+
+### Contributing Code
+
+Found a bug? Got neat way to refactor an existing code path? Bursting with ideas to make OpenSpending more awesome?
+
+We *can't wait* to see your contributions. Here are a few things that will help:
+
+- All open issues [can be found here](http://github.com/openspending/openspending/issues). If you are working on an existing issue, please let us know by commenting on an issue. Likewise, if you are working on something new, open an issue to let us know.
+- We follow a set of [coding standards](https://github.com/okfn/coding-standards), and we have simple examples of those coding standards implemented for [Python](https://github.com/okfn/oki-py) and [Javascript](https://github.com/okfn/oki-js). Please do read before starting.
+
+If anything is unclear, or you just want to talk with other people working on OpenSpending, then catch us on [Gitter.im](http://gitter.im/openspending/chat).
