@@ -9,7 +9,6 @@ pages:
   - 'Getting started': developers/index.md
   - Platform: developers/platform.md
   - Datastore: developers/datastore.md
-  - Conductor: developers/conductor.md
   - Packager: developers/packager.md
   - Viewer: developers/viewer.md
   - Explorer: developers/explorer.md

@@ -6,7 +6,7 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Platform](platform/)
 - [Datastore](datastore/)
 - [API](#api)
-- [Conductor](conductor/)
+- [Conductor](#conductor)
 - [Packager](packager/)
 - [Viewer](viewer/)
 - [Explorer](explorer/)
@@ -44,8 +44,7 @@ The OpenSpending API offers a rich suite of methods to query the database.
 
 A set of integration web services for OpenSpending, responsible for identity, notification, and access control.
 
-- [Conductor docs](conductor/)
-- [Conductor code](https://github.com/openspending/os-conductor)
+- [os-conductor docs and code](https://github.com/openspending/os-conductor)
 
 ### Packager
 
