@@ -9,7 +9,6 @@ pages:
   - 'Getting started': developers/index.md
   - Datastore: developers/datastore.md
   - Theming Guide: developers/theming-guide.md
-  - Views: developers/views.md
 - Contributors:
   - 'Getting started': contributors/index.md
   - Prepare: contributors/prepare.md
