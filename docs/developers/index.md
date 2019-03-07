@@ -5,7 +5,7 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Getting started](#getting-started)
 - [Platform](platform/)
 - [Datastore](datastore/)
-- [API](api/)
+- [API](#api)
 - [Conductor](conductor/)
 - [Packager](packager/)
 - [Viewer](viewer/)
@@ -37,8 +37,7 @@ The OpenSpending Datastore is a flat file datastore with source data stored in [
 
 The OpenSpending API offers a rich suite of methods to query the database.
 
-- [API docs](api/)
-- [API code](https://github.com/openspending/os-api)
+- [os-api docs and code](https://github.com/openspending/os-api)
 
 ### Conductor
 
