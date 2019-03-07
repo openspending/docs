@@ -12,7 +12,7 @@ The Packager provides a simple user interface to load data into OpenSpending. Th
 ## Using the CLI
 
 - [Code repo](https://github.com/openspending/os-cli)
-- [CLI docs](http://docs.openspending.org/en/latest/developers/cli/)
+- [CLI docs](https://docs.openspending.org/en/latest/developers/cli/)
 
 The CLI provides a simple command line interface to interact with an OpenSpending instance. Using the CLI, you can authenticate with an OpenSpending instance and then push data directly to the datastore.
 

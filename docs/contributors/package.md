@@ -1,6 +1,6 @@
 # Package data for OpenSpending
 
-OpenSpending "understands" the contents of a source data file via another "descriptor" called a [Fiscal Data Package](http://frictionlessdata.io/specs/fiscal-data-package/).
+OpenSpending "understands" the contents of a source data file via another "descriptor" called a [Fiscal Data Package](https://frictionlessdata.io/specs/fiscal-data-package/).
 
 In fact, the OpenSpending Datastore does not strictly store any old data file, but rather, it stores Fiscal Data Packages, being a collection of data sources and a `datapackage.json` descriptor file.
 

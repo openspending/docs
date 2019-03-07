@@ -1,6 +1,6 @@
 site_name: OpenSpending
 site_description: OpenSpending is a database for the storage and analysis of fiscal data.
-site_url: http://docs.openspending.org
+site_url: https://docs.openspending.org
 repo_url: https://github.com/openspending/openspending
 pages:
 - Home:

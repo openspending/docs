@@ -86,9 +86,9 @@ cd docker-config && ./docker-start-dev.sh
 
 When complete, visit the following URLs in your browser:
 
-- [Packager](http://dev.openspending.org/packager)
-- [Viewer](http://dev.openspending.org/viewer)
-- [API](http://dev.openspending.org/api)
+- [Packager](https://dev.openspending.org/packager)
+- [Viewer](https://dev.openspending.org/viewer)
+- [API](https://dev.openspending.org/api)
 
 #### Hacking
 
@@ -143,7 +143,7 @@ Found a bug? Got neat way to refactor an existing code path? Bursting with ideas
 
 We *can't wait* to see your contributions. Here are a few things that will help:
 
-- All open issues for the Viewer [can be found here](http://github.com/openspending/openspending/issues), labeled "Viewer". If you are working on an existing issue, please let us know by commenting on an issue. Likewise, if you are working on something new, open an issue to let us know.
+- All open issues for the Viewer [can be found here](https://github.com/openspending/openspending/issues), labeled "Viewer". If you are working on an existing issue, please let us know by commenting on an issue. Likewise, if you are working on something new, open an issue to let us know.
 - We follow a set of [coding standards](https://github.com/okfn/coding-standards), and we have simple examples of those coding standards implemented for [Python](https://github.com/okfn/oki-py) and [Javascript](https://github.com/okfn/oki-js). Please do read before starting.
 
 If anything is unclear, or you just want to talk with other people working on OpenSpending, then catch us on [Gitter.im](http://gitter.im/openspending/chat).
