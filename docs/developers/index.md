@@ -12,6 +12,7 @@ This section of the OpenSpending documentation is for developers. Here you can l
 - [Views (babbage.ui)](#views)
 - [Explorer](#explorer)
 - [Auth Client](#auth-client)
+- [Data Importers](#data-importers)
 - [Monitoring](#monitoring)
 - [Status and Incident Notifications](#status-and-incident-notifications)
 - [Theming Guide](theming-guide/)
@@ -76,6 +77,13 @@ The OpenSpending Explorer is a Javascript application that provides an interface
 The OpenSpending Auth Client is a Javascript library for working with the OpenSpending Auth APIs.
 
 - [Auth Client docs and code](https://github.com/openspending/os-auth-client)
+
+### Data Importers
+
+The Data Importers application is an alternative way to upload data and create Fiscal Datapackages for Openspending. Instead of using the web Packager interface, data publishers can define data sources, field definitions, and additional processor steps, in a source specification file. This 'source-spec' file is used to generate a [Datapackage Pipeline](https://github.com/frictionlessdata/datapackage-pipelines), using the [datapackage-pipelines-fiscal](https://github.com/openspending/datapackage-pipelines-fiscal) plugin.
+
+- [Data Importers docs and code](https://github.com/openspending/os-data-importers)
+- [Source spec files used by OpenSpending.org](https://github.com/openspending/os-source-specs)
 
 ### Monitoring
 
