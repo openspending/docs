@@ -11,13 +11,11 @@ At this stage, there are two methods for creating Fiscal Data Packages:
 - [OS Packager](https://github.com/openspending/os-packager)
 - Manually (not recommended)
 
-We are working on an interactive modeler on the command line, as part of [OS CLI](https://github.com/openspending/os-cli).
 
 ## Validating a Fiscal Data Package
 
 Fiscal Data Packages can be validated using the following tools:
 
-- [OS CLI](https://github.com/openspending/os-cli)
 - [OS Packager](https://github.com/openspending/os-packager)
 - [DataPackage Lib](https://github.com/frictionlessdata/datapackage-py)
 

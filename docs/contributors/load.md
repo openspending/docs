@@ -9,12 +9,11 @@ It is possible to load Fiscal Data Packages into OpenSpending via a web app (the
 
 The Packager provides a simple user interface to load data into OpenSpending. The app is a wizard that guides the user through the uploading of a data source, the modeling of a Fiscal Data Package, the provision of metadata, and publication to the OpenSpending Datastore.
 
-## Using the CLI
+## Using the Data Importers
 
-- [Code repo](https://github.com/openspending/os-cli)
-- [CLI docs](https://docs.openspending.org/en/latest/developers/cli/)
+The Data Importers app provides an alternative way to upload data and create data packages on OpenSpending, using a [Datapackage Pipeline](https://github.com/frictionlessdata/datapackage-pipelines).
 
-The CLI provides a simple command line interface to interact with an OpenSpending instance. Using the CLI, you can authenticate with an OpenSpending instance and then push data directly to the datastore.
+- [Code repo and docs](https://github.com/openspending/os-data-importers)
 
 ## Walkthroughs
 
@@ -55,13 +54,3 @@ The CLI provides a simple command line interface to interact with an OpenSpendin
 
 11. In OS Admin you have the ability to search your datasets, publish or unpublish a dataset. To finalize publishing, click “Publish” next to the dataset you want to make available.
 ![Image12](https://raw.githubusercontent.com/openspending/docs/master/images/publish..jpg)
-
-### Load data via the CLI
-
-{
-pre. start with two data sources, one good one bad, both already have an FDP.
-1. check, validate, etc etc.
-2. authenticate with the service.
-3. Push files up.
-4. Ping for API load status
-}

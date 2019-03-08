@@ -15,11 +15,11 @@ Essentially, the minimum quality requirements are as follows:
 
 Files added to OpenSpending need to meet a certain quality level in the structure of the file, and the schema.
 
-If you use the [OpenSpending Packager](https://github.com/openspending/os-packager) to upload files via a UI, or, the [OpenSpending CLI](https://github.com/openspending/os-cli) to upload files via the command line, the data sources will be checked using the [GoodTables data validator](https://github.com/frictionlessdata/goodtables).
+If you use the [OpenSpending Packager](https://github.com/openspending/os-packager) to upload files via a UI, or, the [Data Importers](https://github.com/openspending/os-data-importers) to upload files via a [datapackage pipeline](https://github.com/frictionlessdata/datapackage-pipelines).
 
-Using these tools, you'll not only be told that the data sources are valid (or not), you'll also get hints on how to address issues in the case of invalid files.
+Using these tools, as well as being told whether the data sources are valid, you'll also get hints on how to address issues in the case of invalid files.
 
-If you have a custom data processing pipeline, or in general, would like to validate your files without using the Packager and CLI, that is entirely possible by using GoodTables directly in your own setup.
+If you have a custom data processing pipeline and would like to validate your files without using the Packager, that is entirely possible by using [GoodTables](https://github.com/frictionlessdata/goodtables-py) directly in your own setup.
 
 ## Why is this important?
 
@@ -49,7 +49,7 @@ OpenSpending uses a flat file datastore to store the raw data provided by users,
 
 7. Correct errors in your data source and try again.
 
-### Checking data quality with the CLI
+### Checking data quality with the GoodTables CLI
 
 1. Download the goodtables library, which is a Python package, and can be used as a command line tool. It runs on Python 2 or 3:`pip install goodtables`
 
